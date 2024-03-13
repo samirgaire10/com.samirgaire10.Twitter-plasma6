@@ -37,15 +37,15 @@ there are few problems / ISSUES with this plasmoid
 
 - Twitter [Github](https://github.com/samirgaire10/com.samirgaire10.Twitter-plasma6.git)
 
-- Brave search [Github](https://github.com/samirgaire10/com.samirgaire10.chatgpt-plasma6.git)
+- Brave search [Github](https://github.com/samirgaire10/com.samirgaire10.Brave-plasma6.git)
 
-- Google Gemini [Github](https://github.com/samirgaire10/com.samirgaire10.chatgpt-plasma6.git)
+- Google Gemini [Github](https://github.com/samirgaire10/com.samirgaire10.google_gemini-plasma6.git)
 
-- Deepl Translater [Github](https://github.com/samirgaire10/com.samirgaire10.chatgpt-plasma6.git)
+- Deepl Translater [Github](https://github.com/samirgaire10/com.samirgaire10.Deepl-plasma6.git)
 
-- Ollama  Gpt [Github](https://github.com/samirgaire10/com.samirgaire10.chatgpt-plasma6.git)
+- Ollama Gpt [Github](https://github.com/samirgaire10/com.samirgaire10.Ollama-plasma6.git)
 
-- perplexityAi  [Github](https://github.com/samirgaire10/com.samirgaire10.chatgpt-plasma6.git)
+- perplexityAi [Github](https://github.com/samirgaire10/com.samirgaire10.perplexityAi-plasma6.git)
 
 ## For plasma 5
 
