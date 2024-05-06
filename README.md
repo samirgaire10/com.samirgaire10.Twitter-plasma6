@@ -15,6 +15,7 @@ Just fork or clone the project :
 run the command on terminal
 `git clone  https://github.com/samirgaire10/com.samirgaire10.google_gemini-plasma6.git `
 
+
 move the folder to `.local/share/plasma/plasmoids/`
 
 
@@ -38,6 +39,8 @@ move the folder to `.local/share/plasma/plasmoids/`
 - Blackbox AI  [Github](https://github.com/samirgaire10/com.samirgaire10.blackbox.AI_plasma6.git)
 
 - Weblink  [Github](https://github.com/samirgaire10/com.samirgaire10.Weblink-plasma6.git)
+
+- Google Translater [Github](https://github.com/samirgaire10/com.samirgaire10.GoogleTranslater-plasma6.git)
 
 
 ## For plasma 5

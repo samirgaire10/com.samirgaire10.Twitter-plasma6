@@ -67,8 +67,10 @@ PlasmoidItem {
          
 
             WebEngineView {
-                id: webview
+                id: twitterwebview
                 anchors.fill: parent
+
+                
                 onUrlChanged: plasmoid.configuration.url = url;
                 Component.onCompleted: url = plasmoid.configuration.url;
 
@@ -144,9 +146,9 @@ PlasmoidItem {
                 acceptedButtons: Qt.BackButton | Qt.ForwardButton
                 onPressed: mouse => {
                     if (mouse.button === Qt.BackButton) {
-                        webview.goBack();
+                        twitterwebview.goBack();
                     } else if (mouse.button === Qt.ForwardButton) {
-                        webview.goForward();
+                        twitterwebview.goForward();
                     }
                 }
             }
