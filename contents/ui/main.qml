@@ -15,7 +15,7 @@ import org.kde.kirigami 2.20 as Kirigami
 import org.kde.plasma.plasmoid 2.0
 
 PlasmoidItem {
-    id: root
+    id: twittertwitterroot
 
     switchWidth: Kirigami.Units.gridUnit * 16
     switchHeight: Kirigami.Units.gridUnit * 23
@@ -40,9 +40,9 @@ PlasmoidItem {
             acceptedButtons: Qt.LeftButton
 
             onPressedChanged: if (pressed) {
-                wasExpanded = root.expanded;
+                wasExpanded = twitterroot.expanded;
             }
-            onTapped: root.expanded = !wasExpanded
+            onTapped: twitterroot.expanded = !wasExpanded
         }
 
         Kirigami.Icon {
