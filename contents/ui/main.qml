@@ -15,7 +15,7 @@ import org.kde.kirigami 2.20 as Kirigami
 import org.kde.plasma.plasmoid 2.0
 
 PlasmoidItem {
-    id: twittertwitterroot
+    id: twitterroot
 
     switchWidth: Kirigami.Units.gridUnit * 16
     switchHeight: Kirigami.Units.gridUnit * 23
@@ -69,6 +69,8 @@ PlasmoidItem {
             WebEngineView {
                 id: twitterwebview
                 anchors.fill: parent
+                
+                // twitterwebview.setCookie("domain", "name", "value");
 
                 
                 onUrlChanged: plasmoid.configuration.url = url;
@@ -150,6 +152,8 @@ PlasmoidItem {
                     } else if (mouse.button === Qt.ForwardButton) {
                         twitterwebview.goForward();
                     }
+
+                    
                 }
             }
         }
