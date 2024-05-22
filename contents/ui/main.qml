@@ -70,9 +70,6 @@ PlasmoidItem {
                 id: twitterwebview
                 anchors.fill: parent
                 
-                // twitterwebview.setCookie("domain", "name", "value");
-
-                
                 onUrlChanged: plasmoid.configuration.url = url;
                 Component.onCompleted: url = plasmoid.configuration.url;
 
